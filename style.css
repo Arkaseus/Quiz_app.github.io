@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,rgb(123, 199, 250),rgb(8, 138, 245));
+   
+    height:10%
+}
+
+.container
+{   background-color:rgb(19, 18, 18);
+    width:100%;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.card{
+    background-color: rgb(61, 60, 60);
+    width: 90%;
+    height: 85vh; 
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 35px 30px;
+    margin-left: 80px;
+}
+.content {
+    color: white;
+    position: absolute;
+    
+}
+.content label,input{
+    margin-bottom: 30px;
+     font-size: 40px;
+     margin-left: 20px;
+}
+#nb{
+   visibility: hidden;
+   color: white;
+   background-color: rgb(35, 228, 83);
+   font-size: xx-large;
+   padding: 10px;
+   border: 0ch;
+   border-radius: 10px; width: 200px;
+   margin-left: -200px;
+   cursor:pointer;
+  
+}
+#sb{
+                margin-left: 28px;
+                color: white;
+                background-color: dodgerblue;
+                font-size: xx-large;
+                padding: 10px;
+                border: 0ch;
+                border-radius: 10px; width: 200px;
+                cursor:pointer;
+}
+
+.card2{
+    background-color: rgb(61, 60, 60);
+    width: 90%;
+    height: 85vh; 
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 35px 30px;
+    margin-left: 80px;
+}
+
+.left ul li {
+    color:whitesmoke;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.left ul li h4{
+    color:whitesmoke;
+    background-color: rgb(51, 231, 51);
+    padding: 6px;
+    height: 30px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 5px;
+
+}
+
+.container2{
+    background-color:rgb(19, 18, 18);
+    width:100%;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rb{
+   color: white;
+   background-color: dodgerblue;
+   font-size: xx-large;
+   padding: 10px;
+   border: 0ch;
+   border-radius: 10px; width: 150px;
+   margin: 40px;
+}
+.right{
+    width:400px;
+    height: 400px;
+    background-color: rgb(51, 174, 231);
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+
+}
+.container2{
+    display:none;
+}

@@ -1,0 +1,83 @@
+<html>
+
+<head><title>Quiz Challenge</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+
+    <div class="nav">
+        <H1 style="color:white">Quiz</H1>
+    </div>
+
+    <div id="c1" class="container">
+
+        <div class="card">
+
+            
+
+            <div class="content">
+                <h2 id="q" style="color: white; font-size: 40px;">_______ refers to the process of locating and removing the errors in a program</h2>
+                <br>
+                <input id="0" type="radio" name="opname" value="Analyzing">
+                <label id="0l" style="cursor:pointer;" for="0">Analyzing</label><br>
+                
+                <input id="1" type="radio" name="opname" value="Correcting">
+                <label id="1l" style="cursor:pointer;" for="1">Correcting</label><br>
+                
+                <input id="2" type="radio" name="opname" value="Debugging">
+                <label id="2l" style="cursor:pointer;" for="2">Debugging</label><br>
+
+                <input id="3" type="radio" name="opname" value="Executing">
+                <label id="3l" style="cursor:pointer;" for="3">Executing</label><br>
+             
+            
+                
+                    
+                <h1 id="msg" style="margin: 10px 30px; padding: 6px; width: 200px;"></h1>
+
+                <input id="sb" type="button" onclick="sub()" name="submit" value="submit">                
+                <input id="nb" type="button" onclick="nextque()"  value="Next">                
+
+            </div>
+
+        </div>>
+
+    </div>
+
+
+    <div id="c2"class="container2">
+       
+       <h1 style="color: aliceblue;margin-left: 300px;">Answer Key </h1>
+        <div class="card2">
+
+         <div class="left">
+             <ul id="ul-id">
+
+               
+
+             </ul>
+           </div>
+
+
+           <div class="right">
+              <h1>Score : <h1 id="score-id"></h1></h1>
+              <button class="rb"type="button" style="cursor:pointer;" onclick="restart()">Restart</button>
+           </div>
+
+        </div>
+
+       
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
